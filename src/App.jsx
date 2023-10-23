@@ -1,5 +1,5 @@
 import Header from "./components/header.jsx";
-// import gallery from "./components/gallery.jsx";
+import gallery from "./components/gallery.jsx";
 import Footer from "./components/footer.jsx";
 
 import "./App.css";
@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
         <Header />
-        {/* <gallery /> */}
+        <gallery />
         <Footer />
       </div>
     </>
